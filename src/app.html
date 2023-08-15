@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width" />
+	%sveltekit.head%
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Itim&display=swap" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/v4-shims.min.js"
+		integrity="sha512-6n3X18GAJomziz6HVPbmyBOEZeoB8+unwEBTRXFs3IZTRYYCkbXNAWNV68uHujamEvDBqaGe2FTW19o81h1/RA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body data-sveltekit-preload-data="hover" style="margin: 0;">
+	<div class="circles" style="display: contents">%sveltekit.body%</div>
+</body>
+
 </html>
