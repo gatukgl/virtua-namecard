@@ -2,10 +2,9 @@
 	let info = {
 		name: 'Sudarat Chattanon',
 		nname: 'Gatuk',
-		title: 'Engineering Director',
-		company: 'PRODIGY9',
-		email: 'sudarat@prodigy9.co',
-		phone: '(66)61-387-8484'
+		title: 'Lead Software Engineer (Frontend)',
+		company: 'Jitta',
+		email: 'gatukgl@gmail.com'
 	};
 </script>
 
@@ -15,13 +14,13 @@
 	<div class="card">
 		<div cass="main-info">
 			<div class="name">{info.name.toUpperCase()} ({info.nname.toUpperCase()})</div>
+			<br />
 			<div class="title">{info.title.toUpperCase()}</div>
 			<div class="company"><i class="fa-regular fa-building" /> @ {info.company}</div>
 		</div>
 
 		<div class="contact">
 			<div>Email: {info.email}</div>
-			<div>Phone: {info.phone}</div>
 		</div>
 	</div>
 </main>
@@ -47,11 +46,11 @@
 	}
 
 	.title {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 	}
 
 	.company {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 	}
 	.bg {
 		position: relative;
